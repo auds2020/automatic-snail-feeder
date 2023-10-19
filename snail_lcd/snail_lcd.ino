@@ -52,7 +52,7 @@ void loop() {
       lcd.print(days);
       Serial.println(days);
       lcd.setCursor(0, 1);
-      if (days>1){
+      if (days==1){
         lcd.print("day");
       }else{
         lcd.print("days");
